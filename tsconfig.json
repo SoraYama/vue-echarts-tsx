@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./lib/",
+    "experimentalDecorators": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "lib": [
+      "es2015",
+      "es5",
+      "dom"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

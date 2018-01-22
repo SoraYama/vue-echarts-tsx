@@ -1,0 +1,58 @@
+{
+  "name": "vue-echarts-tsx",
+  "version": "0.1.0",
+  "description": "A .tsx version of echarts component. (code from https://github.com/Justineo/vue-echarts)",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "demo": "npm run build && open index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyq77766177/vue-echarts-tsx.git"
+  },
+  "keywords": [
+    "echarts",
+    "vue",
+    "tsx"
+  ],
+  "dependencies": {
+    "echarts": "^4.0.1",
+    "lodash": "^4.17.4",
+    "resize-detector": "0.0.5",
+    "vue": "^2.5.2",
+    "vue-class-component": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/echarts": "0.0.9",
+    "@types/element-resize-detector": "^1.1.0",
+    "@types/lodash": "^4.14.92",
+    "@types/node": "^9.3.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.22.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.28.0",
+    "element-resize-detector": "^1.1.13",
+    "style-loader": "^0.19.1",
+    "text-loader": "0.0.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "vue-loader": "^13.3.0",
+    "vue-style-loader": "^3.0.1",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0"
+  },
+  "author": "SoraYama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyq77766177/vue-echarts-tsx/issues"
+  },
+  "homepage": "https://github.com/hyq77766177/vue-echarts-tsx#readme"
+}
