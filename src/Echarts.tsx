@@ -273,22 +273,22 @@ export default class ECharts extends Vue {
     this.destroy()
   }
 
-  connect(group: string | Array<any>) {
+  static connect(group: string | Array<any>) {
     if (typeof group !== 'string') {
       group = group.map(chart => chart.chart)
     }
     echarts.connect(group)
   }
 
-  disconnect(group: string) {
+  static disconnect(group: string) {
     echarts.disConnect(group)
   }
 
-  registerMap(mapName: string, geoJSON: object, specialAreas?: object) {
+  static registerMap(mapName: string, geoJSON: object, specialAreas?: object) {
     echarts.registerMap(mapName, geoJSON, specialAreas)
   }
 
-  registerTheme(name: string, theme: object) {
+  static registerTheme(name: string, theme: object) {
     echarts.registerTheme(name, theme)
   }
 
